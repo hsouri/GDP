@@ -1,6 +1,6 @@
 # Generating Potent Poisons and Backdoors from Scratch with Guided Diffusion
 
-This code is the official PyTroch implementation of the GDP. Our implementation is based on [Industrial Scale Data Poisoning via Gradient Matching](https://github.com/JonasGeiping/poisoning-gradient-matching), [PyTorch pretrained Diffusion Models
+This code is the official PyTroch implementation of the [GDP](https://arxiv.org/abs/2403.16365). Our implementation is based on [Industrial Scale Data Poisoning via Gradient Matching](https://github.com/JonasGeiping/poisoning-gradient-matching), [PyTorch pretrained Diffusion Models
 ](https://github.com/pesser/pytorch_diffusion) and [this awesome repo](https://github.com/JonasGeiping/data-poisoning).
 
 ![Overview](Schematic.png)
@@ -33,3 +33,17 @@ There are a bunch of optional arguments in the ```forest/options.py```. Here are
 - ```--base_optim_guidance_3_wt``` : Guidance strength.
 - ```--base_num_steps``` : Recurrent steps for base poisons.
 - ```--base_poison_loss_w``` : Classifer guidance weight.
+
+## Citation
+Please cite our paper:
+
+```
+@misc{souri2024generating,
+      title={Generating Potent Poisons and Backdoors from Scratch with Guided Diffusion}, 
+      author={Hossein Souri and Arpit Bansal and Hamid Kazemi and Liam Fowl and Aniruddha Saha and Jonas Geiping and Andrew Gordon Wilson and Rama Chellappa and Tom Goldstein and Micah Goldblum},
+      year={2024},
+      eprint={2403.16365},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
