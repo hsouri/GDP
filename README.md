@@ -1,6 +1,6 @@
 # Generating Potent Poisons and Backdoors from Scratch with Guided Diffusion
 
-This code is the official PyTroch implementation of the [GDP](https://arxiv.org/abs/2403.16365). Our implementation is based on [Industrial Scale Data Poisoning via Gradient Matching](https://github.com/JonasGeiping/poisoning-gradient-matching), [PyTorch pretrained Diffusion Models
+This code is the official PyTroch implementation of the [Generating Potent Poisons and Backdoors from Scratch with Guided Diffusion](https://arxiv.org/abs/2403.16365). Our implementation is based on [Industrial Scale Data Poisoning via Gradient Matching](https://github.com/JonasGeiping/poisoning-gradient-matching), [PyTorch pretrained Diffusion Models
 ](https://github.com/pesser/pytorch_diffusion) and [this awesome repo](https://github.com/JonasGeiping/data-poisoning).
 
 ![Overview](Schematic.png)
